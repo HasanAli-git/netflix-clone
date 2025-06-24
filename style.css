@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+   
+}
+
+.main{
+    background-image: url(assetes/Images/bgimg.jpg);
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+
+.main .box{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.718);
+    position: absolute;
+    top: 0;
+}
+nav{
+    
+    height: 100px;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+nav>span :first-child{
+    padding: 7px 25px;
+    color: white;
+    border: 1px solid gray;
+    background-color: rgba(32, 32, 32, 0.566);
+    border-radius: 4px;
+}
+nav>span :nth-child(2){
+    padding: 7px 18px;
+    background-color: #db0001;
+    color: white;
+    border: 1px solid #db0001;
+    border-radius: 4px;
+
+}
+.hero{
+    margin-top: 80px;
+    height: 60%;
+    color: white;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    font-family: Oswald;
+    
+}
+.hero> :first-child{
+    text-align: center;
+    
+    font-size: 56px;
+    font-weight: 900;
+}
+.hero> :nth-child(2){
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 0px 20px 0px;
+}
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 300;
+}
+span{
+    margin-top: 0px;
+}
+.e-mail{
+    
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.e-mail> input {
+    color: white;
+    padding: 15px 50px;
+    filter: blur(0.9);
+    background-color: rgba(0, 0, 0, 0.566);
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 24px;
+    
+}
+.e-mail>button{
+
+    font-size: 24px;
+    padding: 15px 50px;
+    background-color: #db0001;
+    color: white;
+    border: 1px solid #db0001;
+    border-radius: 4px;
+    margin-left: 5px;
+    
+}
+.line{
+    height: 100px;
+    width: 100%;
+    position:absolute;
+    
+    display: flex;
+    background:linear-gradient(
+        to right,
+        rgba(33, 13, 22, 1) 16%,
+        rgba(184, 40, 105, 1),
+        rgba(229, 9, 20, 1),
+        rgba(184, 40, 105, 1),
+        rgba(33, 13, 22, 1) 84%
+    );
+    border-top: solid 4px transparent;
+    border-radius: 10px;
+    border-top-left-radius: 40% 40%;
+    border-top-right-radius: 40% 40%;
+    
+
+}
+.subline{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    
+    
+    display: flex;
+    background:radial-gradient(
+        50% 500% at 50% -420%,
+        rgba(64, 97, 231, 0.4) 80%,
+        rgba(0, 0, 0, 0.1) 100%
+    ),black;
+   
+    border-radius: 10px;
+    border-top-left-radius: 40% 40%;
+    border-top-right-radius: 40% 40%;
+   
+
+}
+.top10{
+   
+    height: 70vh;
+    width: 70%;
+    margin-left: 15%;
+    
+}
+.top10>h1{
+    position: relative;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.select>select{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(57, 57, 57, 0.355);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    
+
+    
+}
+.select>:nth-child(2){
+    margin-left: 20px;
+}
+
+.wrapper .cursor{
+    white-space: nowrap;
+    margin-top: 20px;
+    overflow: hidden;
+    
+    
+    
+}
+.wrapper .cursor img{
+    margin-left: 40px;
+    width: 14vw;
+    border-radius: 10px;
+}
+.feature{
+    
+    height: 70vh;
+    width: 72vw;
+    
+}
+
+.feature>h1{
+    margin-top: 50px;
+   
+}
+.panel{
+    display: flex;
+
+}
+.panel .box{ height: 53vh;
+    width: 60vh;
+    background-image: linear-gradient(to bottom right, #1b2146, #200e18);
+    margin-top: 13px;
+    margin-left: 20px;
+    border-radius: 20px;
+    position: relative;
+
+}
+.panel .box h1{
+     font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-weight: 700;
+}
+.panel .box p{
+     font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.panel .box img{
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    filter: invert();
+}
